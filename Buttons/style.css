@@ -1,0 +1,71 @@
+body{
+    background: #2c3e50;
+    color: #fff;
+    font-family: "Montserrat",sans-serif;
+}
+
+.display-box{
+    position: absolute;
+    text-align: center;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 30%;
+    border:1px solid rgba(255,255,255,0.7);
+    padding: 20px;
+    border-radius: 4px;
+}
+.btn-lead,.btn-prime,.btn-danger,.btn-success,.btn-failurelight,.btn-habitual{
+    margin: 10px;
+    border: 1px solid #fff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    text-transform: uppercase;
+    transition: 0.8s;
+    cursor: pointer;
+    border-radius: 5px;
+}
+.btn-lead{
+    background: #9b59b6;
+}
+.btn-lead:hover{
+    background: #6c437d;
+}
+
+.btn-lead{
+    background: #9b59b6;
+}
+.btn-lead:hover{
+    background: #42264e;
+}
+.btn-prime{
+    background: #3498db;
+}
+.btn-prime:hover{
+    background: #2d6a93;
+}
+.btn-danger{
+    background: #e74c3c;
+}
+.btn-danger:hover{
+    background: #ae3528;
+}
+.btn-success{
+    background: #2ecc71;
+}
+.btn-success:hover{
+    background: #239051;
+}
+.btn-failurelight{
+    background: #ff7979;
+}
+.btn-failurelight:hover{
+    background: #B53471;
+}
+.btn-habitual{
+    background: #B1C949;
+}
+.btn-habitual:hover{
+    background: #76872C;
+}
